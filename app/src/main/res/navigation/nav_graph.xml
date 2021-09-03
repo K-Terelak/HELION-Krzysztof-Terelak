@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="kt.mobile.helion_krzysztof_terelak2.fragment.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_myDialog"
+            app:destination="@id/myDialog" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/myDialog"
+        android:name="kt.mobile.helion_krzysztof_terelak2.fragment.home.dialog.ShowDetailsDialog"
+        android:label="MyDialog" >
+        <argument android:name="category"
+            app:argType="kt.mobile.helion_krzysztof_terelak2.data.entities.Category"/>
+    </dialog>
+</navigation>
