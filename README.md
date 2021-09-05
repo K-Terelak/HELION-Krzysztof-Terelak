@@ -2,8 +2,9 @@
 <img width="64" src="https://user-images.githubusercontent.com/78376240/132124328-fe024d2a-03d1-4402-a15e-0b84c60cb7d4.PNG">
 
 ## Versions
-- <a href="https://github.com/K-Terelak/HELION-Krzysztof-Terelak1">using Jetpack Compose</a>
-- <a href="https://github.com/K-Terelak/HELION-Krzysztof-Terelak2">using XML</a>
+- <a href="https://github.com/K-Terelak/HELION-Krzysztof-Terelak">using XML</a>
+- <a href="https://github.com/K-Terelak/HELION-Krzysztof-Terelak2">using Jetpack Compose</a>
+
 
 
 ### Tech stack
